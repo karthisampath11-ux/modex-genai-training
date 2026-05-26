@@ -1,0 +1,36 @@
+DAY 3 TRACKER UPDATE
+
+Completed Practical Files:
+1. mini_utility.py
+2. mini_utility_v2.py
+3. batch_processor.py
+4. batch_processor_v2.py
+
+Generated Output Files:
+1. mini_utility_output.txt
+2. mini_utility_v2_output.txt
+3. batch_processor_output.txt
+4. batch_results.json
+
+Concepts Practiced:
+- Gemini API integration
+- Prompt engineering
+- JSON parsing
+- Batch AI processing
+- Command-line utilities
+- Error handling
+- File operations
+- Structured output generation
+
+Observations:
+- Prompt structure strongly affects AI response quality.
+- JSON formatting is important for automation workflows.
+- Batch processing improves scalability.
+- Exception handling improves reliability.
+
+Blockers:
+- Encountered temporary Gemini API quota limitations.
+- Successfully resolved JSON parsing issues.
+
+Status:
+All Day 3 practical tasks completed successfully.

@@ -1,0 +1,39 @@
+RUNNING PROMPT TESTS...
+
+============================================================
+TEXT: The movie was amazing and emotional.
+ACTUAL: Positive
+ZERO-SHOT: Positive
+FEW-SHOT: Positive
+CHAIN-OF-THOUGHT: Positive
+============================================================
+TEXT: Worst customer service ever.
+ACTUAL: Negative
+ZERO-SHOT: Negative
+FEW-SHOT: Negative
+CHAIN-OF-THOUGHT: Negative
+============================================================
+TEXT: The product arrived yesterday.
+ACTUAL: Neutral
+ZERO-SHOT: Neutral
+FEW-SHOT: Neutral
+CHAIN-OF-THOUGHT: Neutral
+============================================================
+TEXT: I absolutely loved the performance.
+ACTUAL: Positive
+ZERO-SHOT: Positive
+FEW-SHOT: Positive
+CHAIN-OF-THOUGHT: Positive
+============================================================
+TEXT: The app crashes every time I open it.
+ACTUAL: Negative
+ZERO-SHOT: Negative
+FEW-SHOT: Negative
+CHAIN-OF-THOUGHT: Negative
+
+============================================================
+FINAL RESULTS
+============================================================
+Zero-Shot Accuracy: 5/5
+Few-Shot Accuracy: 5/5
+Chain-of-Thought Accuracy: 5/5

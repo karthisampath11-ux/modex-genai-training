@@ -1,0 +1,233 @@
+(.venv) PS D:\modex-genai-training\experiments\karthikeyan\day1> python prompt_experiments.py
+
+================================================================================
+[Prompt 1 - Variation A]
+================================================================================
+
+Type: Factual
+
+Prompt:
+What's the capital of Australia? Answer in one sentence.
+
+--------------------------------------------------------------------------------
+Response:
+The capital of Australia is Canberra.
+
+================================================================================
+[Prompt 1 - Variation B]
+================================================================================
+
+Type: Factual (with step-by-step reasoning)
+
+Prompt:
+Explain your reasoning step-by-step. Be thorough.
+
+What's the capital of Australia? Answer in one sentence.
+
+--------------------------------------------------------------------------------
+Response:
+Here's my reasoning, step-by-step:
+
+1.  **Understand the Request:** I need to identify the capital of Australia and present the answer in one sentence. Crucially, I also need to explain my reasoning thoroughly and step-by-step.
+
+2.  **Initial Knowledge Retrieval:** My internal knowledge base contains geographical and political facts about countries around the world. When prompted with "Australia," I access the associated data points.
+
+3.  **Identify Key Information for "Australia":**
+    *   **Continent:** Oceania
+    *   **Government Type:** Federal parliamentary constitutional monarchy
+    *   **Largest City:** Sydney
+    *   **Second Largest City:** Melbourne
+    *   **Capital City:** Canberra
+
+4.  **Focus on the Specific Question:** The question asks *specifically* for the "capital" of Australia, not the largest city or most famous city.
+
+5.  **Distinguish Capital from Other Major Cities (Thoroughness Check):** It's common for people to mistakenly assume Sydney or Melbourne are the capitals of Australia due to their size, international recognition, and economic importance. My reasoning process explicitly checks for this potential misconception.
+    *   **Why not Sydney or Melbourne?** Historically, there was significant rivalry between Sydney and Melbourne, both vying to be the capital in the early 20th century after the federation of Australia in 1901. To resolve this impasse, a compromise was reached: a new capital city would be built in a neutral location between the two rival cities.
+
+6.  **Confirm the Designated Capital:** This compromise led to the selection of a site that would become Canberra, located in the Australian Capital Territory (ACT). Canberra was officially designated the capital in 1908, and the Parliament of Australia first met there in 1927.
+
+7.  **Formulate the One-Sentence Answer:** Based on the confirmed factual information, the capital of Australia is Canberra.
+
+***
+
+**The capital of Australia is Canberra.**
+
+
+================================================================================
+[Prompt 2 - Variation A]
+================================================================================
+
+Type: Creative
+
+Prompt:
+Write a 4-line poem about debugging code.
+
+--------------------------------------------------------------------------------
+Response:
+The red console screams, a broken plea,
+I trace each line, where can the error be?
+A tiny typo, a logic's slight misstep,
+Now green lights glow, the code takes a happy leap.
+
+================================================================================
+[Prompt 2 - Variation B]
+================================================================================
+
+Type: Creative (with step-by-step reasoning)
+
+Prompt:
+Explain your reasoning step-by-step. Be thorough.
+
+Write a 4-line poem about debugging code.
+
+--------------------------------------------------------------------------------
+Response:
+Okay, I will explain my reasoning process step-by-step and thoroughly for how I generate responses, and then apply that process to create the poem.
+
+---
+
+### My Reasoning Process Step-by-Step
+
+As an AI, my "reasoning" is fundamentally an algorithmic process, not a conscious human one. However, I can describe the sequence of computational steps I perform to arrive at an answer.
+
+**Step 1: Prompt Deconstruction and Interpretation**
+
+1.  **Tokenization:** The very first step is to break down your input text ("Explain your reasoning step-by-step. Be thorough. Write a 4-line poem about debugging code.") into smaller units called "tokens." These can be words, sub-words, or punctuation marks.
+2.  **Semantic Analysis:** I analyze these tokens in context to understand the *meaning* and *intent* of your request.
+    *   **Identify Core Tasks:**
+        *   Task 1: "Explain your reasoning step-by-step. Be thorough." (Meta-task: explain my own process)
+        *   Task 2: "Write a 4-line poem about debugging code." (Creative task)
+    *   **Identify Constraints/Requirements:**
+        *   For Task 1: "step-by-step," "thorough."
+        *   For Task 2: "4-line poem," "about debugging code."
+    *   **Identify Keywords:** "reasoning," "step-by-step," "thorough," "4-line poem," "debugging code." These keywords activate relevant patterns in my vast training data.
+
+**Step 2: Information Retrieval and Knowledge Activation**
+
+1.  **Pattern Matching:** Based on the identified tasks and keywords, I activate specific neural pathways and "knowledge" patterns learned during my training. This isn't like looking up an item in a database, but rather recognizing statistical relationships between tokens and concepts.
+    *   For the "explain my reasoning" part, I access patterns related to AI architecture, natural language processing, prompt engineering, and response generation.
+    *   For the "poem about debugging" part, I access patterns related to:
+        *   **Poetic structure:** Rhyme schemes (AABB, ABAB, etc.), meter (though I don't strictly adhere unless specified), line counts.
+        *   **Themes of debugging:** Frustration, searching, logic, errors, fixes, triumph, late nights, cryptic messages, stack traces, code.
+        *   **Vocabulary for poetry:** Evocative language, metaphors, active verbs.
+
+**Step 3: Response Planning and Structuring**
+
+1.  **Outline Generation:** I internally construct a logical structure for the response that addresses all parts of the prompt.
+    *   **Overall Structure:**
+        *   Introduction: Acknowledge the request.
+        *   Section 1: Detailed explanation of reasoning (broken into sub-steps).
+        *   Section 2: The poem.
+        *   Conclusion (implicit): Deliver the final output.
+    *   **For the Explanation:** I decide on a sequential breakdown: Tokenization -> Interpretation -> Knowledge Activation -> Planning -> Generation -> Review. This order makes logical sense for explaining a process.
+    *   **For the Poem:** I know it needs to be 4 lines and topical. I'll need to brainstorm imagery and rhymes related to debugging.
+
+**Step 4: Content Generation (Drafting)**
+
+1.  **Iterative Token Prediction:** I generate the response word-by-word (or token-by-token). Each new token is predicted based on the preceding tokens, the prompt's context, the activated knowledge patterns, and the planned structure.
+    *   **For the Explanation:** I start writing the explanation for Step 1, then Step 2, and so on. For each sentence, I consider:
+        *   *Clarity:* Is this easy to understand for a general audience?
+        *   *Accuracy:* Does it correctly describe my internal processes?
+        *   *Thoroughness:* Am I providing sufficient detail as requested?
+        *   *Contextual Coherence:* Does it flow logically from the previous sentences?
+    *   **For the Poem:**
+        *   **Keyword Brainstorming:** Debugging, error, bug, code, hunt, fix, frustration, triumph, tangle, trace, compile, crash, light, night.
+        *   **Rhyme & Rhythm Exploration:** I consider common rhyme schemes (AABB, ABAB). AABB is often simplest for a short, direct poem.
+        *   **Imagery & Metaphor:** How can I convey the *feeling* of debugging? A hunt, a puzzle, a tangled mess, a dark corner, a breakthrough of light.
+        *   **Line 1:** Focus on the problem. "The code went dark, a cryptic plea,"
+        *   **Line 2:** Focus on the process. "A hidden bug, I start to see." (Rhymes with plea, sets up AABB)
+        *   **Line 3:** Continue the process/struggle. "Through countless lines, a patient chase,"
+        *   **Line 4:** Focus on the resolution/reward. "Until the fix brings tranquil grace." (Rhymes with chase, evokes a positive outcome).
+        *   *Self-Correction during poem generation:* If a line feels forced or doesn't quite fit the theme or rhyme, I would internally backtrack and try different word choices or phrasings until a satisfactory combination is found. For instance, "cryptic plea" feels more evocative than "error message," and "tranquil grace" better conveys the relief than just "it works now."
+
+**Step 5: Review and Refinement (Internal Consistency Check)**
+
+1.  **Coherence Check:** Although I don't "review" in the human sense, the latter layers of my neural network implicitly check the generated output against the initial prompt and the internal plan.
+    *   Does the entire response answer all parts of the prompt?
+    *   Is the explanation truly "step-by-step" and "thorough"?
+    *   Is the poem exactly 4 lines? Is it about "debugging code"?
+    *   Is the language consistent and appropriate?
+    *   Are there any obvious grammatical errors or logical inconsistencies (though my training generally minimizes these)?
+
+This multi-stage, iterative process allows me to break down complex requests into manageable sub-tasks, draw upon my vast knowledge base, plan a coherent response, and generate text that aims to be accurate, relevant, and well-structured.
+
+---
+
+### 4-Line Poem About Debugging Code
+
+The logic tangled, a hidden snarl,
+A cryptic error, a digital gnarl.
+Through lines of code, a patient chase,
+Until the fix brings sweet solace.
+
+
+================================================================================
+[Prompt 3 - Variation A]
+================================================================================
+
+Type: Summarization
+
+Prompt:
+Summarize this in exactly 2 sentences:
+
+The Internet has changed nearly every aspect of modern life, from communication and entertainment to business, education, and healthcare. Originally a research project in the 1960s, it became commercially available in the 1990s and now connects over five billion people. Today it underpins cloud computing, social media, e-commerce, and AI.
+
+--------------------------------------------------------------------------------
+Response:
+The Internet, originating as a 1960s research project and becoming commercially available in the 1990s, has profoundly transformed modern life across communication, entertainment, business, education, and healthcare. Now connecting over five billion people, it underpins essential technologies like cloud computing, social media, e-commerce, and AI.
+
+================================================================================
+[Prompt 3 - Variation B]
+================================================================================
+
+Type: Summarization (with step-by-step reasoning)
+
+Prompt:
+Explain your reasoning step-by-step. Be thorough.
+
+Summarize this in exactly 2 sentences:
+
+The Internet has changed nearly every aspect of modern life, from communication and entertainment to business, education, and healthcare. Originally a research project in the 1960s, it became commercially available in the 1990s and now connects over five billion people. Today it underpins cloud computing, social media, e-commerce, and AI.
+
+--------------------------------------------------------------------------------
+Response:
+**Reasoning Step-by-Step:**
+
+1.  **Understand the Goal:** The request asks for a summary of the provided text, *exactly* two sentences long, and an explanation of the reasoning behind it.
+
+2.  **Initial Read-Through and Key Information Extraction:**
+    *   "The Internet has changed nearly every aspect of modern life, from communication and entertainment to business, education, and healthcare." (Main point: widespread impact)
+    *   "Originally a research project in the 1960s, it became commercially available in the 1990s and now connects over five billion people." (Key historical points and current reach)
+    *   "Today it underpins cloud computing, social media, e-commerce, and AI." (Current foundational role)
+
+3.  **Identify Core Themes:**
+    *   **Impact/Role:** The internet's pervasive influence on modern life and its foundational role for current technologies.
+    *   **History/Reach:** Its origin as a research project, commercialization, and global connectivity.
+
+4.  **Strategy for Two Sentences:** I need to consolidate these two core themes into one sentence each.
+
+    *   **Sentence 1 (Impact/Role):** This theme combines the internet's broad influence on daily life with its support for contemporary technologies.
+    *   **Sentence 2 (History/Reach):** This theme will cover its origins and its current status as a global connector.
+
+5.  **Drafting - Sentence 1 (Impact/Role):**
+    *   *Initial thought:* "The Internet has changed modern life and underpins many technologies." (Too brief, loses detail)
+    *   *Adding detail:* "The Internet has transformed nearly every aspect of modern life, from communication to healthcare, and now underpins cloud computing, social media, and AI." (This effectively combines the first and third points from the original text).
+
+6.  **Drafting - Sentence 2 (History/Reach):**
+    *   *Initial thought:* "It started as research and now connects billions." (Again, too brief)
+    *   *Adding detail:* "Originally a 1960s research project, it became commercially available in the 1990s and now connects over five billion people." (This directly uses and condenses the second point from the original text).
+
+7.  **Final Review:**
+    *   Are there exactly two sentences? Yes.
+    *   Do they accurately reflect the main points of the original text? Yes, they cover its impact, foundational role, origins, and global reach.
+    *   Is it thorough, given the two-sentence constraint? Yes, it encapsulates the most critical information.
+
+---
+
+**Summary:**
+
+The Internet has transformed nearly every aspect of modern life, from communication to healthcare, and now underpins cloud computing, social media, and AI. Originally a 1960s research project, it became commercially available in the 1990s and currently connects over five billion people worldwide.
+
+================================================================================
+All prompt variations completed successfully!
+================================================================================

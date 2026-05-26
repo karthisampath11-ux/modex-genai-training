@@ -1,0 +1,19 @@
+DAY 2 STATUS
+
+[✓] Day 1 comparison.md completed
+[✓] JSON extractor completed
+[✓] 3 JSON prompt iterations completed
+[✓] Output files saved
+[✓] Vision test completed
+[✓] 3 vision prompts tested
+[✓] Compare prompts tool completed
+[✓] Compare prompts output saved
+[✓] findings2.md completed
+
+Issues faced:
+- Gemini API quota limits
+- JSON formatting issues
+- File path issues
+
+Overall status:
+Day 2 completed successfully.

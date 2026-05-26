@@ -1,0 +1,45 @@
+RUNNING EXTRACTION TEST
+
+============================================================
+
+INPUT:
+
+Product: Wireless Mouse
+Price: $25
+Category: Electronics
+Rating: 4.5 stars
+
+============================================================
+
+BASIC EXTRACTION RESULT:
+
+{
+  "product": "Wireless Mouse",
+  "price": "$25",
+  "category": "Electronics",
+  "rating": "4.5 stars"
+}
+
+============================================================
+
+FEW-SHOT EXTRACTION RESULT:
+
+{
+  "product": "Wireless Mouse",
+  "price": "$25",
+  "category": "Electronics",
+  "rating": "4.5 stars"
+}
+
+============================================================
+
+OBSERVATIONS
+
+- Basic prompting extracted the fields correctly.
+- Few-shot prompting produced cleaner and more reliable JSON formatting.
+- Structured prompts improve consistency.
+- Few-shot prompting is better for production extraction systems.
+
+============================================================
+
+TEST COMPLETED SUCCESSFULLY

@@ -1,0 +1,43 @@
+[
+    {
+        "input": "Artificial Intelligence is improving healthcare.",
+        "output": {
+            "summary": "Artificial Intelligence is making advancements and bringing positive developments to the healthcare sector.",
+            "sentiment": "positive",
+            "keywords": [
+                "Artificial Intelligence",
+                "AI",
+                "healthcare",
+                "improving"
+            ]
+        },
+        "processed_at": "2026-05-22 12:17:21.222220"
+    },
+    {
+        "input": "Python is widely used in data science.",
+        "output": {
+            "summary": "Python is extensively utilized within the field of data science.",
+            "sentiment": "positive",
+            "keywords": [
+                "Python",
+                "data science",
+                "widely used"
+            ]
+        },
+        "processed_at": "2026-05-22 12:17:23.374630"
+    },
+    {
+        "input": "Cloud platforms help businesses scale quickly.",
+        "output": {
+            "summary": "Cloud platforms enable businesses to expand their operations rapidly.",
+            "sentiment": "positive",
+            "keywords": [
+                "cloud platforms",
+                "businesses",
+                "scale",
+                "quickly"
+            ]
+        },
+        "processed_at": "2026-05-22 12:17:25.112329"
+    }
+]

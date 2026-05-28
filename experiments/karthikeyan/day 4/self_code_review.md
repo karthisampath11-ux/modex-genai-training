@@ -31,3 +31,7 @@ making maintenance harder for other developers.
 ## 7. JSON Validation
 Structured outputs are not validated before usage.
 JSON parsing validation should be implemented.
+
+
+
+https://www.youtube.com/watch?v=zjkBMFhNj_g

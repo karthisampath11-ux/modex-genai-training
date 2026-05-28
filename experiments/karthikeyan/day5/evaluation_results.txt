@@ -1,0 +1,142 @@
+======================================================================
+CATEGORY: FACTUAL
+======================================================================
+
+GEMINI RESPONSE:
+The capital of France is Paris.
+
+Gemini Latency: 967.83 ms
+
+GROQ RESPONSE:
+The capital of France is Paris.
+
+Groq Latency: 321.87 ms
+
+======================================================================
+CATEGORY: SUMMARIZATION
+======================================================================
+
+GEMINI RESPONSE:
+Artificial Intelligence is transforming industries by automating tasks, improving efficiency, and enabling data-driven decision making. Its systems are widely applied across diverse fields including healthcare, finance, education, and transportation.
+
+Gemini Latency: 2089.93 ms
+
+GROQ RESPONSE:
+Here's a 2-sentence summary of the paragraph:
+
+Artificial Intelligence is revolutionizing various industries by automating tasks, improving efficiency, and enabling data-driven decision making. AI systems are being utilized in a wide range of fields, including healthcare, finance, education, and transportation.
+
+Groq Latency: 210.04 ms
+
+======================================================================
+CATEGORY: EMAIL WRITING
+======================================================================
+
+GEMINI RESPONSE:
+Subject: Leave Request - [Your Name] - [Start Date] & [End Date]
+
+Dear [Manager's Name],
+
+I am writing to formally request two days of leave on **[Start Date]** and **[End Date]**, due to personal reasons. This would mean I would be absent from work on [Day of Week, Start Date] and [Day of Week, End Date], returning to the office on [Day of Week, Date of Return].
+
+I have reviewed my current projects and responsibilities and will ensure all urgent tasks are completed before my departure. I will also prepare a brief handover note for [colleague's name, or 'my team'] covering any ongoing items, to ensure a smooth continuation of work in my absence.
+
+I will have limited access to email during this period for urgent matters, but will do my best to complete all necessary preparations beforehand.
+
+Please let me know if these dates are suitable and if there are any specific procedures or forms I need to complete for this request.
+
+Thank you for your understanding and consideration.
+
+Sincerely,
+
+[Your Full Name]
+[Your Job Title]
+[Your Department/Team]
+
+Gemini Latency: 7232.18 ms
+
+GROQ RESPONSE:
+Subject: Leave Request for Personal Reasons
+
+Dear [Supervisor's Name],
+
+I am writing to request two days of leave due to personal reasons. I would like to take [Date] and [Date] off from work. I will ensure that all my tasks are completed and my work is up to date before my departure.
+
+If there are any concerns or issues with my leave request, please let me know as soon as possible. I appreciate your understanding and support in this matter.
+
+Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]
+
+Groq Latency: 473.8 ms
+
+======================================================================
+CATEGORY: JSON EXTRACTION
+======================================================================
+
+GEMINI RESPONSE:
+```json
+{
+  "Name": "John Doe",
+  "Age": 28,
+  "City": "New York",
+  "Profession": "Software Engineer"
+}
+```
+
+Gemini Latency: 1842.48 ms
+
+GROQ RESPONSE:
+Here's the extracted information in JSON format:
+
+```json
+{
+  "name": "John Doe",
+  "age": 28,
+  "city": "New York",
+  "profession": "Software Engineer"
+}
+```
+
+If you want to convert this JSON object to a Python dictionary, you can use the `json` module:
+
+```python
+import json
+
+data = {
+  "name": "John Doe",
+  "age": 28,
+  "city": "New York",
+  "profession": "Software Engineer"
+}
+
+json_data = json.dumps(data)
+print(json_data)
+```
+
+This will output the same JSON string as above.
+
+Groq Latency: 353.87 ms
+
+======================================================================
+CATEGORY: REASONING
+======================================================================
+
+GEMINI RESPONSE:
+There are **9** sheep left.
+
+The phrase "all but 9 die" means that 9 sheep survived.
+
+Gemini Latency: 2504.84 ms
+
+GROQ RESPONSE:
+To find the number of sheep left, we need to subtract the number of sheep that died from the total number of sheep.
+
+Total number of sheep = 17
+Number of sheep that died = 17 - 9 = 8
+
+So, the number of sheep left is 17 - 8 = 9.
+
+Groq Latency: 264.03 ms
+

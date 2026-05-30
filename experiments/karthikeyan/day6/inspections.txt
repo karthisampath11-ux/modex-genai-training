@@ -1,0 +1,9 @@
+During today's inspection of the office building, I checked the emergency exits on the second floor. I found three exits available and all of them were open, clearly marked, and easy to access. NBC-EXIT-001 requires at least two emergency exits for this type of occupancy. Based on my observation, the requirement was met.
+
+I reviewed the maintenance records for the fire extinguishers installed on the first floor. The last inspection entry was recorded nearly five months ago and there was no recent update available. NBC-FIRE-001 requires monthly inspection and documentation. Since the records were outdated, I noted this as a non-compliance issue.
+
+While checking the sprinkler system in the warehouse area, the facility supervisor informed me that the system was functioning properly. However, no recent testing certificate or maintenance document was provided during the inspection. NBC-SPRINKLER-001 requires documented testing records. Because supporting evidence was not available, I could not fully verify compliance.
+
+As part of the safety inspection, I tested the emergency lighting system in the main corridors and staircases. The lights switched on correctly during the power interruption test and remained functional throughout the observation period. NBC-LIGHT-001 requires emergency lighting in these areas. Based on the inspection, the requirement was satisfied.
+
+I inspected the basement parking area and noticed that some exit signs were either missing or difficult to locate. In a few places, the evacuation route was not clearly indicated for visitors. NBC-SIGN-001 requires visible exit signage along all evacuation routes. Additional signage should be installed to address this issue.

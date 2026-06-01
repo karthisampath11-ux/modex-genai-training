@@ -1,0 +1,459 @@
+[
+  {
+    "case_number": 1,
+    "input": "During today's inspection of the office building, I checked the emergency exits on the second floor. I found three exits available and all of them were open, clearly marked, and easy to access. NBC-EXIT-001 requires at least two emergency exits for this type of occupancy. Based on my observation, the requirement was met.",
+    "expected": {
+      "rule_id": "NBC-EXIT-001",
+      "status": "compliant",
+      "evidence_quotes": [
+        "I found three exits available and all of them were open, clearly marked, and easy to access.",
+        "NBC-EXIT-001 requires at least two emergency exits for this type of occupancy."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-EXIT-001",
+      "status": "compliant",
+      "evidence_quotes": [
+        "I found three exits available and all of them were open, clearly marked, and easy to access.",
+        "NBC-EXIT-001 requires at least two emergency exits for this type of occupancy.",
+        "Based on my observation, the requirement was met."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.667,
+    "confidence_score": 1.0,
+    "total_score": 0.933,
+    "error": ""
+  },
+  {
+    "case_number": 2,
+    "input": "I reviewed the maintenance records for the fire extinguishers installed on the first floor. The last inspection entry was recorded nearly five months ago and there was no recent update available. NBC-FIRE-001 requires monthly inspection and documentation. Since the records were outdated, I noted this as a non-compliance issue.",
+    "expected": {
+      "rule_id": "NBC-FIRE-001",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "The last inspection entry was recorded nearly five months ago and there was no recent update available.",
+        "NBC-FIRE-001 requires monthly inspection and documentation."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-FIRE-001",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "The last inspection entry was recorded nearly five months ago",
+        "NBC-FIRE-001 requires monthly inspection and documentation",
+        "the records were outdated"
+      ],
+      "confidence": 0.9,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.0,
+    "confidence_score": 1.0,
+    "total_score": 0.8,
+    "error": ""
+  },
+  {
+    "case_number": 3,
+    "input": "While checking the sprinkler system in the warehouse area, the facility supervisor informed me that the system was functioning properly. However, no recent testing certificate or maintenance document was provided during the inspection. NBC-SPRINKLER-001 requires documented testing records. Because supporting evidence was not available, I could not fully verify compliance.",
+    "expected": {
+      "rule_id": "NBC-SPRINKLER-001",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "no recent testing certificate or maintenance document was provided during the inspection",
+        "NBC-SPRINKLER-001 requires documented testing records",
+        "Because supporting evidence was not available, I could not fully verify compliance"
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-SPRINKLER-001",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "no recent testing certificate or maintenance document was provided during the inspection",
+        "NBC-SPRINKLER-001 requires documented testing records",
+        "Because supporting evidence was not available, I could not fully verify compliance"
+      ],
+      "confidence": 0.9,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 1.0,
+    "confidence_score": 1.0,
+    "total_score": 1.0,
+    "error": ""
+  },
+  {
+    "case_number": 4,
+    "input": "As part of the safety inspection, I tested the emergency lighting system in the main corridors and staircases. The lights switched on correctly during the power interruption test and remained functional throughout the observation period. NBC-LIGHT-001 requires emergency lighting in these areas. Based on the inspection, the requirement was satisfied.",
+    "expected": {
+      "rule_id": "NBC-LIGHT-001",
+      "status": "compliant",
+      "evidence_quotes": [
+        "The lights switched on correctly during the power interruption test and remained functional throughout the observation period.",
+        "NBC-LIGHT-001 requires emergency lighting in these areas.",
+        "Based on the inspection, the requirement was satisfied."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-LIGHT-001",
+      "status": "compliant",
+      "evidence_quotes": [
+        "The lights switched on correctly during the power interruption test and remained functional throughout the observation period.",
+        "NBC-LIGHT-001 requires emergency lighting in these areas.",
+        "Based on the inspection, the requirement was satisfied."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 1.0,
+    "confidence_score": 1.0,
+    "total_score": 1.0,
+    "error": ""
+  },
+  {
+    "case_number": 5,
+    "input": "I inspected the basement parking area and noticed that some exit signs were either missing or difficult to locate. In a few places, the evacuation route was not clearly indicated for visitors. NBC-SIGN-001 requires visible exit signage along all evacuation routes. Additional signage should be installed to address this issue.",
+    "expected": {
+      "rule_id": "NBC-SIGN-001",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "some exit signs were either missing or difficult to locate",
+        "the evacuation route was not clearly indicated for visitors",
+        "NBC-SIGN-001 requires visible exit signage along all evacuation routes"
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-SIGN-001",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "some exit signs were either missing or difficult to locate",
+        "the evacuation route was not clearly indicated for visitors"
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.667,
+    "confidence_score": 1.0,
+    "total_score": 0.933,
+    "error": ""
+  },
+  {
+    "case_number": 6,
+    "input": "During the inspection of emergency exits, 4 of the 6 exits met the required width standard while 2 exits were narrower than the permitted limit. NBC-EXIT-002 requires all emergency exits to meet the minimum width requirement.",
+    "expected": {
+      "rule_id": "NBC-EXIT-002",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "4 of the 6 exits met the required width standard while 2 exits were narrower than the permitted limit.",
+        "NBC-EXIT-002 requires all emergency exits to meet the minimum width requirement."
+      ],
+      "confidence": 0.7,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-EXIT-002",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "2 exits were narrower than the permitted limit",
+        "NBC-EXIT-002 requires all emergency exits to meet the minimum width requirement"
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.0,
+    "confidence_score": 0.0,
+    "total_score": 0.7,
+    "error": ""
+  },
+  {
+    "case_number": 7,
+    "input": "The facility manager presented an inspection certificate for the backup generator. The certificate was issued in March 2025. NBC-GEN-001 requires annual certification of backup power systems.",
+    "expected": {
+      "rule_id": "NBC-GEN-001",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "The certificate was issued in March 2025.",
+        "NBC-GEN-001 requires annual certification of backup power systems."
+      ],
+      "confidence": 0.65,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-GEN-001",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "The certificate was issued in March 2025.",
+        "NBC-GEN-001 requires annual certification of backup power systems."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 0.0,
+    "evidence_score": 1.0,
+    "confidence_score": 0.0,
+    "total_score": 0.6,
+    "error": ""
+  },
+  {
+    "case_number": 8,
+    "input": "The warehouse supervisor stated that the sprinkler system had been tested recently and was operating normally. However, no testing report or certificate was available during the inspection. NBC-SPRINKLER-002 requires documented evidence of testing.",
+    "expected": {
+      "rule_id": "NBC-SPRINKLER-002",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "The warehouse supervisor stated that the sprinkler system had been tested recently and was operating normally.",
+        "no testing report or certificate was available during the inspection.",
+        "NBC-SPRINKLER-002 requires documented evidence of testing."
+      ],
+      "confidence": 0.75,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-SPRINKLER-002",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "However, no testing report or certificate was available during the inspection."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 0.0,
+    "evidence_score": 0.0,
+    "confidence_score": 0.0,
+    "total_score": 0.4,
+    "error": ""
+  },
+  {
+    "case_number": 9,
+    "input": "IS-1456 requires emergency shutdown switches to be clearly labeled. The inspection found that all switches were labeled and visible to operators.",
+    "expected": {
+      "rule_id": "IS-1456",
+      "status": "compliant",
+      "evidence_quotes": [
+        "IS-1456 requires emergency shutdown switches to be clearly labeled.",
+        "all switches were labeled and visible to operators."
+      ],
+      "confidence": 0.8,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "IS-1456",
+      "status": "compliant",
+      "evidence_quotes": [
+        "IS-1456 requires emergency shutdown switches to be clearly labeled.",
+        "The inspection found that all switches were labeled and visible to operators."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.333,
+    "confidence_score": 1.0,
+    "total_score": 0.867,
+    "error": ""
+  },
+  {
+    "case_number": 10,
+    "input": "The inspection report noted that the fire alarm system appeared functional during routine observation. No testing records were reviewed and no alarm activation test was performed. NBC-ALARM-001 requires a functional fire alarm system.",
+    "expected": {
+      "rule_id": "NBC-ALARM-001",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "The fire alarm system appeared functional during routine observation.",
+        "No testing records were reviewed and no alarm activation test was performed.",
+        "NBC-ALARM-001 requires a functional fire alarm system."
+      ],
+      "confidence": 0.7,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-ALARM-001",
+      "status": "insufficient_evidence",
+      "evidence_quotes": [
+        "No testing records were reviewed and no alarm activation test was performed."
+      ],
+      "confidence": 0.5,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.333,
+    "confidence_score": 1.0,
+    "total_score": 0.867,
+    "error": ""
+  },
+  {
+    "case_number": 11,
+    "input": "During the site review, section 4.5.2 of the building code was discussed. The inspector noted that the stairway handrail was loose and detached near the lower landing. NBC-4.5.2 requires stairway handrails to be securely anchored.",
+    "expected": {
+      "rule_id": "NBC-4.5.2",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "The inspector noted that the stairway handrail was loose and detached near the lower landing.",
+        "NBC-4.5.2 requires stairway handrails to be securely anchored."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-4.5.2",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "the stairway handrail was loose and detached near the lower landing",
+        "NBC-4.5.2 requires stairway handrails to be securely anchored"
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.0,
+    "confidence_score": 1.0,
+    "total_score": 0.8,
+    "error": ""
+  },
+  {
+    "case_number": 12,
+    "input": "NBC-EXIT-010 requires two emergency exits. NBC-LIGHT-010 requires functioning emergency lighting. The building had two exits available, but emergency lighting failed during testing.",
+    "expected": {
+      "rule_id": "NBC-LIGHT-010",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "NBC-LIGHT-010 requires functioning emergency lighting.",
+        "emergency lighting failed during testing."
+      ],
+      "confidence": 0.85,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-LIGHT-010",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "NBC-LIGHT-010 requires functioning emergency lighting.",
+        "emergency lighting failed during testing."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 1.0,
+    "confidence_score": 1.0,
+    "total_score": 1.0,
+    "error": ""
+  },
+  {
+    "case_number": 13,
+    "input": "The facility has only one emergency exit available for occupants. NBC-EXIT-011 requires at least two emergency exits.",
+    "expected": {
+      "rule_id": "NBC-EXIT-011",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "only one emergency exit available for occupants.",
+        "NBC-EXIT-011 requires at least two emergency exits."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-EXIT-011",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "The facility has only one emergency exit available for occupants.",
+        "NBC-EXIT-011 requires at least two emergency exits."
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.333,
+    "confidence_score": 1.0,
+    "total_score": 0.867,
+    "error": ""
+  },
+  {
+    "case_number": 14,
+    "input": "The inspection report contained details about landscaping, parking allocation, office furniture replacement, and cafeteria improvements. After reviewing all areas, inspectors noted that two emergency exits were available and clearly marked. NBC-EXIT-012 requires at least two emergency exits.",
+    "expected": {
+      "rule_id": "NBC-EXIT-012",
+      "status": "compliant",
+      "evidence_quotes": [
+        "two emergency exits were available and clearly marked.",
+        "NBC-EXIT-012 requires at least two emergency exits."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-EXIT-012",
+      "status": "compliant",
+      "evidence_quotes": [
+        "two emergency exits were available and clearly marked",
+        "NBC-EXIT-012 requires at least two emergency exits"
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.0,
+    "confidence_score": 1.0,
+    "total_score": 0.8,
+    "error": ""
+  },
+  {
+    "case_number": 15,
+    "input": "Section 4.5.2 of NBC specifies that stairway handrails must remain securely fixed. During inspection, the handrail was found detached from the wall.",
+    "expected": {
+      "rule_id": "NBC-4.5.2",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "Section 4.5.2 of NBC specifies that stairway handrails must remain securely fixed.",
+        "the handrail was found detached from the wall."
+      ],
+      "confidence": 0.95,
+      "notes": ""
+    },
+    "actual": {
+      "rule_id": "NBC-4.5.2",
+      "status": "non_compliant",
+      "evidence_quotes": [
+        "stairway handrails must remain securely fixed",
+        "the handrail was found detached from the wall"
+      ],
+      "confidence": 1.0,
+      "notes": ""
+    },
+    "rule_id_score": 1.0,
+    "status_score": 1.0,
+    "evidence_score": 0.0,
+    "confidence_score": 1.0,
+    "total_score": 0.8,
+    "error": ""
+  }
+]
